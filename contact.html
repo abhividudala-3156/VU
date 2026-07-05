@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | VECTA University</title>
+    <meta name="description" content="Contact Vecta University for inquiries. Find our address and phone number.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><div class="logo-icon">VU</div> VECTA Univ.</a>
+            <button class="mobile-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="contact.html" class="active btn-apply">Contact</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <span class="tag">Get In Touch</span>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="grid-2">
+                <div>
+                    <h3>Campus Details</h3>
+                    <p><strong>Address:</strong> Nandivargam, AP, India</p>
+                    <p><strong>Email:</strong> info@innovation.edu</p>
+                    <p><strong>Phone:</strong> +91 9999977777</p>
+                </div>
+                <form id="contactForm" style="background: rgb(234, 230, 230); padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="4" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px;"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                    <p id="statusMsg" class="status-msg"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="view-switcher">
+        <button class="view-btn active" data-mode="desktop">💻 Desktop</button>
+        <button class="view-btn" data-mode="tablet">📟 Tablet</button>
+        <button class="view-btn" data-mode="mobile">📱 Mobile</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty | VECTA University</title>
+    <meta name="description" content="Meet the expert faculty of Vecta University across Computer Science, Business, Design, and Sciences.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">VU</div> VECTA Univ.
+            </a>
+            <button class="mobile-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="contact.html" class="btn-apply">Contact</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Faculty Section -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <span class="tag">Our Mentors</span>
+                <h2>Distinguished Faculty</h2>
+                <p style="color: var(--text-light); max-width: 600px; margin: 0 auto;">
+                    Learn from experienced professors and industry experts who guide students through research, innovation, and real-world problem solving.
+                </p>
+            </div>
+
+            <div class="grid-3">
+                <!-- Faculty Card 1 -->
+                <div class="card card-body" style="text-align: center;">
+                    <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--primary-light)); margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: 700;">
+                        CS
+                    </div>
+                    <h3>Prof. Abhinay</h3>
+                    <p style="color: var(--text-light); margin-bottom: 8px;">Professor, Computer Science & AI</p>
+                    <p style="font-size: 0.9rem; color: var(--text-light);">
+                        Specializes in machine learning, data science, and high-performance computing with 15+ years of teaching and research experience.
+                    </p>
+                </div>
+
+                <!-- Faculty Card 2 -->
+                <div class="card card-body" style="text-align: center;">
+                    <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--accent)); margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: 700;">
+                        BA
+                    </div>
+                    <h3>Prof. Vikram Sharma</h3>
+                    <p style="color: var(--text-light); margin-bottom: 8px;">Head, Business Administration</p>
+                    <p style="font-size: 0.9rem; color: var(--text-light);">
+                        Expert in strategic management and entrepreneurship, mentoring students in startup incubation and leadership skills.
+                    </p>
+                </div>
+
+                <!-- Faculty Card 3 -->
+                <div class="card card-body" style="text-align: center;">
+                    <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #10b981, #22c55e); margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: 700;">
+                        GD
+                    </div>
+                    <h3>Ms. Sara Thomas</h3>
+                    <p style="color: var(--text-light); margin-bottom: 8px;">Senior Lecturer, Graphic Design</p>
+                    <p style="font-size: 0.9rem; color: var(--text-light);">
+                        Focuses on visual communication, UI/UX, and digital media, helping students build strong creative portfolios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- View Switcher -->
+    <div class="view-switcher">
+        <button class="view-btn active" data-mode="desktop">💻 Desktop</button>
+        <button class="view-btn" data-mode="tablet">📟 Tablet</button>
+        <button class="view-btn" data-mode="mobile">📱 Mobile</button>
+    </div>
+
+    <!-- Simple footer reuse -->
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h3>Vecta University</h3>
+                <p>Empowering minds since 1985.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul style="list-style: none;">
+                    <li><a href="about.html" style="color: white;">About Us</a></li>
+                    <li><a href="courses.html" style="color: white;">Courses</a></li>
+                    <li><a href="faculty.html" style="color: white;">Faculty</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul style="list-style: none;">
+                    <li><a href="contact.html" style="color: white;">Get in touch</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Vecta University. Designed for Ambigious Students.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

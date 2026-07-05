@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | VECTA University</title>
+    <meta name="description" content="View photos of our campus, events, and student life.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><div class="logo-icon">VU</div> VECTA Univ.</a>
+            <button class="mobile-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="contact.html" class="btn-apply">Contact</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <span class="tag">Campus Life</span>
+                <h2>Our Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://image.qwenlm.ai/public_source/2171a6a2-128c-4b51-b02f-1a8349b920ad/1704fd037-d4dc-4219-9b9e-255afad1b419.png" alt="Graduation Ceremony">
+                    <p style="text-align: center; margin-top: 10px; font-weight: 600;">Graduation Day</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://image.qwenlm.ai/public_source/2171a6a2-128c-4b51-b02f-1a8349b920ad/10f02aae3-8746-4c76-98f2-3cb08863b843.png" alt="Sports Event">
+                    <p style="text-align: center; margin-top: 10px; font-weight: 600;">Sports Complex</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://image.qwenlm.ai/public_source/2171a6a2-128c-4b51-b02f-1a8349b920ad/18de7eb6b-65d3-4054-bccd-ec077fcd9458.png" alt="Library">
+                    <p style="text-align: center; margin-top: 10px; font-weight: 600;">Central Library</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="view-switcher">
+        <button class="view-btn active" data-mode="desktop">💻 Desktop</button>
+        <button class="view-btn" data-mode="tablet">📟 Tablet</button>
+        <button class="view-btn" data-mode="mobile">📱 Mobile</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
