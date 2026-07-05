@@ -3,6 +3,8 @@
 
 ## Website Type
 University / Education Website
+## contributors
+   V Abhinay Kumar
 
 ## Technologies Used
 - HTML5
@@ -41,3 +43,5 @@ Open `index.html` in any browser.
 4. Click **"Add new site"** > **"Import an existing project"**.
 5. Connect your GitHub repository.
 6. Deploy the website.
+## Ai chat Assist
+  Vecta AI is a AI Live chat assist powered by tawk.to it follow through the users queries and rectify it 
